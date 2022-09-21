@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+body {
+  margin: 0;
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* NAVBAR */
+@layer base {
+  li {
+    @apply p-4
+  }
+
+  
+}
+
+
+.solidButton {
+  @apply text-white border bg-teal-600 border-teal-600
+  hover:bg-transparent hover:text-teal-600 rounded-md
+}
+
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transform: opacity 1s;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  @apply bg-teal-600;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  opacity: 1
+}
+ 
+.diagonalBackground{
+clip-path: polygon(58% 0, 100% 0, 100% 100%, 30% 100%);
+}
+
+
+
+
+@media (max-width: 767px) {
+.diagonalBackground2{
+  clip-path: polygon(0 13%, 100% 0, 100% 87%, 0 100%);
+
+}
+}
+
+.fadein{
+animation: fadeInAnimation ease 2s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+0% {
+    opacity: 0;
+    transform: translateY(100px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+ }
+}
+
+.fadeinOther{
+animation: fadeInAnimation2 ease 1.5s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation2 {
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+ }
+}
+
+.underline-animation {
+display: inline-block;
+position: relative;
+
+}
+
+.underline-animation:after {
+content: '';
+position: absolute;
+width: 30%;
+transform: scaleX(0);
+height: 3px;
+bottom: -10px;
+left: 0;
+@apply bg-teal-600;
+transform-origin: bottom left;
+transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover:after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}
+
+
+
+.underline-animation-scroll {
+width: 30%;
+transform: scaleX(0);
+height: 3px;
+bottom: 0px;
+left: 0;
+@apply bg-teal-600;
+animation: underline-animation-scroll ease 1.5s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+
+
+@keyframes underline-animation-scroll {
+0% {
+  transform: scaleX(0);
+  transform-origin: bottom left;
+}
+100% {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+ }
+}
+
+@media (max-width: 767px) {
+.underline-animation-scroll{
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+
+.fadeinRight{
+animation: fadeInAnimationRight ease 1.5s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimationRight {
+0% {
+    opacity: 0;
+    transform: translateX(200px);
+}
+100% {
+    opacity: 1;
+    transform: translateX(0px);
+ }
+}
+
+.fadeinLeft{
+animation: fadeInAnimationLeft ease 1.5s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimationLeft {
+0% {
+    opacity: 0;
+    transform: translateX(-50px);
+}
+100% {
+    opacity: 1;
+    transform: translateX(0px);
+ }
+}
+
+.fadeinNoMove{
+animation: fadeInAnimationNoMove ease 1.5s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimationNoMove {
+0% {
+    opacity: 0;
+
+}
+100% {
+    opacity: 1;
+ }
+}
+
+.iframe{
+  filter: grayscale(1) ,contrast(1.2), opacity(0.4);
+}
