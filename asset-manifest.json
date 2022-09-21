@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Architect/static/css/main.6fd02ea7.css",
+    "main.js": "/Architect/static/js/main.11f93bd9.js",
+    "static/js/787.b58dff96.chunk.js": "/Architect/static/js/787.b58dff96.chunk.js",
+    "static/media/planen.jpg": "/Architect/static/media/planen.067d397e316a47c33fcb.jpg",
+    "static/media/heroImg.jpg": "/Architect/static/media/heroImg.873d91c17394cebd66d2.jpg",
+    "static/media/beraten.jpg": "/Architect/static/media/beraten.f57655b24a7f47988db1.jpg",
+    "static/media/umsetzen.jpg": "/Architect/static/media/umsetzen.5eda5eff3c605f622f8d.jpg",
+    "static/media/item4.jpg": "/Architect/static/media/item4.3cd5d7e7bc788f5e0dfe.jpg",
+    "static/media/item2.jpg": "/Architect/static/media/item2.d73f14c3739bac63ae28.jpg",
+    "static/media/item1.jpg": "/Architect/static/media/item1.0686278a41a6d490a6b3.jpg",
+    "static/media/item3.jpg": "/Architect/static/media/item3.7040b63fbaa1224aba21.jpg",
+    "static/media/team4.jpg": "/Architect/static/media/team4.fe0d0195cd72e5bdba0c.jpg",
+    "static/media/team3.jpg": "/Architect/static/media/team3.ab68516d4b28db5d6a0d.jpg",
+    "static/media/team2.jpg": "/Architect/static/media/team2.e89814b80dd43c99cff0.jpg",
+    "static/media/team1.jpg": "/Architect/static/media/team1.eb1e4dc6469ba0f177a7.jpg",
+    "static/media/Mark.jpg": "/Architect/static/media/Mark.09d151e190d22d187c0f.jpg",
+    "static/media/Lisa.jpg": "/Architect/static/media/Lisa.19c2b540b31d724930fe.jpg",
+    "static/media/logo.svg": "/Architect/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Architect/index.html",
+    "main.6fd02ea7.css.map": "/Architect/static/css/main.6fd02ea7.css.map",
+    "main.11f93bd9.js.map": "/Architect/static/js/main.11f93bd9.js.map",
+    "787.b58dff96.chunk.js.map": "/Architect/static/js/787.b58dff96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fd02ea7.css",
+    "static/js/main.11f93bd9.js"
+  ]
+}
